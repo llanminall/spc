@@ -21,10 +21,12 @@ $(function () {
     if (sc >= con02 && sc < con03) {
       $(".con03").addClass("on");
     }
+    if (sc >= con03 && sc < 2000) {
+      $(".con03 .wrap_left03").addClass("on");
+    }
 
     if (sc >= con03 && sc < con04) {
       $(".con04").addClass("on");
-      $(".con03 .wrap_left03").addClass("on");
     }
   });
 
