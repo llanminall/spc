@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- 해더시작 -->
+    <div id="header">
+      <header>
+        <h1>
+          <a href="index.html"><img src="img/logo.svg" alt="" /></a>
+        </h1>
+
+        <div class="navi">
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="">ABOUT SPC</a>
+                <ul class="gnb_s">
+                  <li><a href="">SPC WAY</a></li>
+                  <li><a href="">R&D</a></li>
+                  <li><a href="">관계사</a></li>
+                  <li><a href="">글로벌</a></li>
+                  <li><a href="">CI소개</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">HIATORY</a>
+                <ul class="gnb_s">
+                  <li><a href="">헤리티지</a></li>
+                  <li><a href="">연혁</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">BRAND</a>
+                <ul class="gnb_s">
+                  <li><a href="">베이커리</a></li>
+                  <li><a href="">디저트</a></li>
+                  <li><a href="">외식/다이닝</a></li>
+                  <li><a href="">커피/음료</a></li>
+                  <li><a href="">유통/서비스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">SPC NOW</a>
+                <ul class="gnb_s">
+                  <li><a href="">뉴스</a></li>
+                  <li><a href="">매거진</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">ESG</a>
+                <ul class="gnb_s">
+                  <li><a href="">ESG경영</a></li>
+                  <li><a href="">정도경영</a></li>
+                  <li><a href="">안전경영</a></li>
+                  <li><a href="">행복한재단</a></li>
+                  <li><a href="">사회공헌</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">SUPPORT</a>
+                <ul class="gnb_s">
+                  <li><a href="">가맹문의</a></li>
+                  <li><a href="">위치안내</a></li>
+                  <li><a href="">문의하기</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="right">
+          <div class="careers"><a href="">CAREERS</a></div>
+          <div class="lang">
+            <i class="fa-solid fa-globe"></i>
+            <ul>
+              <li class="ko">KO</li>
+              <li>EN</li>
+              <li>CN</li>
+            </ul>
+          </div>
+          <div class="bar"><i class="fa-solid fa-bars"></i></div>
+          <!-- 모바일 해더 -->
+          <div class="mo_gnb menu02">
+            <ul class="gnb">
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>ABOUT SPC</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+
+                <ul class="gnb_s_bars">
+                  <li><a href="">SPC WAY</a></li>
+                  <li><a href="">R&D</a></li>
+                  <li><a href="">관계사</a></li>
+                  <li><a href="">글로벌</a></li>
+                  <li><a href="">CI소개</a></li>
+                </ul>
+              </li>
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>HIATORY</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="gnb_s_bars">
+                  <li><a href="">헤리티지</a></li>
+                  <li><a href="">연혁</a></li>
+                </ul>
+              </li>
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>BRAND</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="gnb_s_bars">
+                  <li><a href="">베이커리</a></li>
+                  <li><a href="">디저트</a></li>
+                  <li><a href="">외식/다이닝</a></li>
+                  <li><a href="">커피/음료</a></li>
+                  <li><a href="">유통/서비스</a></li>
+                </ul>
+              </li>
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>SPC NOW</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="gnb_s_bars">
+                  <li><a href="">뉴스</a></li>
+                  <li><a href="">매거진</a></li>
+                </ul>
+              </li>
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>ESG</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="gnb_s_bars">
+                  <li><a href="">ESG경영</a></li>
+                  <li><a href="">정도경영</a></li>
+                  <li><a href="">안전경영</a></li>
+                  <li><a href="">행복한재단</a></li>
+                  <li><a href="">사회공헌</a></li>
+                </ul>
+              </li>
+              <li class="gnb_bar">
+                <div class="gnb_m">
+                  <p>SUPPORT</p>
+                  <span><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+
+                <ul class="gnb_s_bars">
+                  <li><a href="">가맹문의</a></li>
+                  <li><a href="">위치안내</a></li>
+                  <li><a href="">문의하기</a></li>
+                </ul>
+              </li>
+              <li class="careers02">
+                <a href=""
+                  >CAREERS <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </li>
+              <li class="lang02">
+                <i class="fa-solid fa-globe"></i>
+                <ul>
+                  <li>KO</li>
+                  <li class="line">|</li>
+                  <li>EN</li>
+                  <li class="line">|</li>
+                  <li>CN</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="bg"></div>
+    </div>
+
+    <!-- 비주얼시작 -->
+
+    <div id="visual">
+      <div class="vi_top">
+        <div class="txt">
+          <p>일상을 맛있게 행복하게</p>
+          <h2>Happiness in everybite</h2>
+        </div>
+        <ul class="vi_bg">
+          <li class="bg1"></li>
+          <li class="bg2"></li>
+          <li class="bg3"></li>
+          <li class="bg4"></li>
+        </ul>
+        <div class="arrow">
+          <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+          <div class="next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+      </div>
+    </div>
+    <!-- 컨테이너 시작 -->
+    <div id="container">
+      <div class="con01">
+        <ul>
+          <li>
+            <a href="https://www.spc.co.kr/history/heritage">
+              <div class="bg5">
+                <img src="img/history.webp" alt="빵반죽이미지" />
+              </div>
+              <div class="txt01">헤리티지</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spc.co.kr/esg/management">
+              <div class="bg5">
+                <img src="img/plane.jpg" alt="종이비행기이미지" />
+              </div>
+              <div class="txt01">ESG</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spc.co.kr/about/philosophy">
+              <div class="bg5">
+                <img src="img/spcway.webp" alt="빵이미지" />
+              </div>
+              <div class="txt01">SPC WAY</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spc.co.kr/esg/management">
+              <div class="bg5">
+                <img src="img/plane.jpg" alt="종이비행기이미지" />
+              </div>
+              <div class="txt01">ESG</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--con02 시작 -->
+      <div class="con02">
+        <div class="left">
+          <div class="bg10"></div>
+          <div class="txt">
+            <h2>
+              먹고 <br /><span class="txt03">마시고</span><br /><span
+                class="txt03"
+              >
+                즐기자</span
+              >
+            </h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right_top">
+            <div class="wrap_right">
+              <div class="txt">
+                <h3>BRAND</h3>
+                <p>SPC그룹의 다양한 브랜드를 만나보세요.</p>
+              </div>
+              <div class="button">
+                <div class="prv"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="txt02">
+                  <span class="now">01</span> <span class="total">/ 03</span>
+                </div>
+                <div class="nex">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <ul class="imag01">
+              <li>
+                <a href="https://www.spc.co.kr/brand/bakery_detail?idx=6">
+                  <div class="bg5 bg01"></div>
+                  <p>살립</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/dessert_detail?idx=14">
+                  <div class="bg6 bg01"></div>
+                  <p>던킨</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/bakery_detail?idx=8">
+                  <div class="bg7 bg01"></div>
+                  <p>스트릿</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right_bottom">
+            <ul class="imag02">
+              <li>
+                <a href="https://www.spc.co.kr/brand/bakery_detail?idx=5">
+                  <div class="bg8 bg01"></div>
+                  <p>파리바게트</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/eat_detail?idx=10">
+                  <div class="bg9 bg01"></div>
+                  <p>쉐이크쉑</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/eat_detail?idx=11">
+                  <div class="bg11 bg01"></div>
+                  <p>라그릴리아</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="imag03">
+              <li>
+                <a href="https://www.spc.co.kr/brand/dessert_detail?idx=2">
+                  <div class="bg12 bg01"></div>
+                  <p>베스킨라빈스</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/bakery_detail?idx=7">
+                  <div class="bg13 bg01"></div>
+                  <p>파리크라상</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.spc.co.kr/brand/enjoy_detail?idx=86">
+                  <div class="bg14 bg01"></div>
+                  <p>피그인더가든</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- con03 시작 -->
+
+      <div class="con03">
+        <div class="left03">
+          <div class="left_top03">
+            <ul class="imag04">
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4461&submit_date=2025-02-20T00:00&args0=all"
+                >
+                  <div class="bg15 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4425&submit_date=2025-01-07T00:00&args0=all"
+                >
+                  <div class="bg16 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4457&submit_date=2025-02-17T00:00&args0=all"
+                >
+                  <div class="bg17 bg01"></div>
+                </a>
+              </li>
+            </ul>
+            <div class="wrap_left03">
+              <div class="txt">
+                <h3>SPC NOW</h3>
+                <p>SPC그룹의 다양한 소식을 만나보세요.</p>
+              </div>
+              <div class="button">
+                <div class="prv03">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="txt02">
+                  <span class="now03">01</span> <span class="total">/ 03</span>
+                </div>
+                <div class="nex03">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="left_bottom03">
+            <ul class="imag05">
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4454&submit_date=2025-02-10T00:00&args0=all"
+                >
+                  <div class="bg18 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4462&submit_date=2025-02-21T00:00&args0=all"
+                >
+                  <div class="bg19 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4438&submit_date=2025-01-23T00:00&args0=all"
+                >
+                  <div class="bg20 bg01"></div>
+                </a>
+              </li>
+            </ul>
+            <ul class="imag06">
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4441&submit_date=2025-02-03T00:00&args0=all"
+                >
+                  <div class="bg21 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4459&submit_date=2025-02-18T00:00&args0=all"
+                >
+                  <div class="bg22 bg01"></div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.spc.co.kr/now/news_detail?idx=4432&submit_date=2025-01-14T00:00&args0=all"
+                >
+                  <div class="bg23 bg01"></div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right03">
+          <div class="bg24"></div>
+          <div class="txt">
+            <h2>NWWS <br /><span class="txt03">MAGAZINE</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- con04 시작 -->
+      <div class="con04">
+        <ul>
+          <li>
+            <a href="https://spc.recruiter.co.kr/career/home">
+              <div class="bg6">
+                <img src="img/careers.webp" alt="의자이미지" />
+              </div>
+              <div class="txt02">CAREERS</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spc.co.kr/support/join">
+              <div class="bg6">
+                <img src="img/contact.webp" alt="사다리이미지" />
+              </div>
+              <div class="txt02">SUPPORT</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 푸터시작 -->
+    <footer>
+      <div class="left">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt="로고" /></a>
+        </div>
+        <div class="information">
+          <p>
+            서울시 서초구 양재동 남부순환로 <span>2620(양재동 11-149)</span
+            ><br /><a href="#">개인정보처리방법 |</a>
+            <a href="#">이메일수집 거부 |</a>
+            <a href="">거래희망사전등록 | </a><br />
+            <a href="#">고정형 영상정보처리기기운영관리방침</a>
+          </p>
+        </div>
+        <div class="familysite">
+          <p>FAMILY SITE</p>
+          <div class="family">
+            <div class="minus01"><i class="fa-solid fa-minus"></i></div>
+            <dis class="minus02"><i class="fa-solid fa-minus"></i></dis>
+          </div>
+          <ul class="box">
+            <li>파리바게트</li>
+            <li>던킨</li>
+            <li>베스킨라빈스</li>
+          </ul>
+        </div>
+        <div class="copy">Copyright SPC All rights reserverd.</div>
+      </div>
+      <div class="right">
+        <ul class="menu">
+          <li>
+            <h4>ABOUT SPC</h4>
+            <p><a href="#">SPC WAY</a></p>
+            <p><a href="#">R&B</a></p>
+          </li>
+          <li>
+            <h4>HISTORY</h4>
+            <p><a href="#">헤리티지</a></p>
+            <p><a href="#">연혁</a></p>
+          </li>
+          <li>
+            <h4>BRAND</h4>
+            <p><a href="#">베이커리</a></p>
+            <p><a href="#">R&B</a></p>
+          </li>
+          <li>
+            <h4>SPC NOW</h4>
+            <p><a href="#">뉴스</a></p>
+            <p><a href="#">매거진</a></p>
+          </li>
+          <li>
+            <h4>ESG</h4>
+            <p><a href="#">ESG경영</a></p>
+            <p><a href="#">정도경영</a></p>
+          </li>
+          <li>
+            <h4>SUPPORT</h4>
+            <p><a href="#">가맹문의</a></p>
+            <p><a href="#">위치안내</a></p>
+          </li>
+        </ul>
+        <ul class="sns">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
